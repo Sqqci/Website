@@ -1,0 +1,82 @@
+body {
+    font-family: 'Abyssinica SIL', serif;
+    margin: 0%;
+    font-size: 15px;
+    line-height: 1.6;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+*,
+*::before 
+*::after {
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 100vh;
+
+    background: 
+    url(img/intro.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+/* Header */
+.header {
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Header__inner */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Header logo */
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Nav */
+.nav {
+font-size: 14px;
+text-transform: uppercase;
+}
+
+/* Nav__link */
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s linear ;
+}
+
+.nav__link:hover {
+    color: #6699CC;
+}
